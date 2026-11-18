@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relações, Princípios e Valores — Portfólio Acadêmico | João Victtor de Sousa Cortes</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="script.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-abyss text-[#F8FAFC] antialiased selection:bg-blue-600/40 selection:text-white">
+
+  <!-- ========================================================================
+       HEADER SUPERIOR (STICKY GLASSMORPHISM)
+       ======================================================================== -->
+  <header class="glass-header sticky top-0 z-40 w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-[72px] flex items-center justify-between gap-3">
+      
+      <!-- Esquerda: Ícone geométrico minimalista em azul + Título -->
+      <a href="#inicio" class="flex items-center gap-3 group min-w-0">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-[#1D4ED8] to-[#0A1226] border border-blue-400/30 flex items-center justify-center shrink-0 shadow-[0_0_20px_rgba(37,99,235,0.3)] group-hover:border-blue-400/60 transition-colors">
+          <!-- Ícone Geométrico Minimalista (Bússola / Prisma Hexagonal) -->
+          <svg class="w-5 h-5 text-[#60A5FA]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <polygon points="12 2 21 7 21 17 12 22 3 17 3 7 12 2" stroke-linejoin="round"></polygon>
+            <circle cx="12" cy="12" r="3"></circle>
+            <line x1="12" y1="2" x2="12" y2="9"></line>
+            <line x1="12" y1="15" x2="12" y2="22"></line>
+          </svg>
+        </div>
+        <span class="font-bold text-sm sm:text-base tracking-tight text-[#F8FAFC] truncate">
+          Relações, Princípios &amp; Valores
+        </span>
+      </a>
+
+      <!-- Centro: Links de navegação suave -->
+      <nav aria-label="Navegação Principal" class="hidden lg:flex items-center gap-1 bg-[#070B14]/90 border border-blue-500/20 rounded-full px-2 py-1">
+        <a href="#inicio" class="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#CBD5E1] hover:text-white hover:bg-[#0E1A38] transition-colors">Início</a>
+        <a href="#pilares" class="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#CBD5E1] hover:text-white hover:bg-[#0E1A38] transition-colors">Pilares</a>
+        <a href="#jornada" class="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#CBD5E1] hover:text-white hover:bg-[#0E1A38] transition-colors">Jornada</a>
+        <a href="#aprendizados" class="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#CBD5E1] hover:text-white hover:bg-[#0E1A38] transition-colors">Aprendizados</a>
+        <a href="#parodia" class="px-3.5 py-1.5 rounded-full text-xs font-medium text-[#CBD5E1] hover:text-white hover:bg-[#0E1A38] transition-colors">Paródia</a>
+      </nav>
+
+
+        <!-- Menu Mobile -->
+        <button id="btnMobileMenu" type="button" aria-label="Abrir menu de navegação" class="lg:hidden inline-flex items-center justify-center p-2 rounded-xl bg-[#0A1226] border border-blue-500/25 text-[#CBD5E1] hover:text-white">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="4" y1="7" x2="20" y2="7" stroke-linecap="round"></line>
+            <line x1="4" y1="12" x2="20" y2="12" stroke-linecap="round"></line>
+            <line x1="4" y1="17" x2="20" y2="17" stroke-linecap="round"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Drawer de Navegação Mobile -->
+    <div id="mobileNavDrawer" class="hidden lg:hidden border-t border-blue-500/20 bg-[#04060B]/95 px-4 py-3">
+      <div class="flex flex-wrap gap-2">
+        <a href="#inicio" class="mobile-nav-link px-3 py-2 rounded-lg text-xs font-medium bg-[#0A1226] text-[#CBD5E1] border border-blue-500/20">Início</a>
+        <a href="#pilares" class="mobile-nav-link px-3 py-2 rounded-lg text-xs font-medium bg-[#0A1226] text-[#CBD5E1] border border-blue-500/20">Pilares</a>
+        <a href="#jornada" class="mobile-nav-link px-3 py-2 rounded-lg text-xs font-medium bg-[#0A1226] text-[#CBD5E1] border border-blue-500/20">Jornada</a>
+        <a href="#aprendizados" class="mobile-nav-link px-3 py-2 rounded-lg text-xs font-medium bg-[#0A1226] text-[#CBD5E1] border border-blue-500/20">Aprendizados</a>
+        <a href="#parodia" class="mobile-nav-link px-3 py-2 rounded-lg text-xs font-medium bg-[#0A1226] text-[#CBD5E1] border border-blue-500/20">Paródia</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="relative">
+    <!-- ======================================================================
+         HERO SECTION (SPLIT ASSIMÉTRICO COM GLOW AZUL ESCURO)
+         ====================================================================== -->
+    <section id="inicio" class="relative overflow-hidden tech-grid-bg border-b border-blue-500/20 pt-12 pb-20 sm:pt-16 sm:pb-24 lg:pt-20 lg:pb-28">
+      <!-- Iluminação radial azul escura suave atrás do conteúdo -->
+      <div aria-hidden="true" class="pointer-events-none absolute -top-24 right-1/4 w-[520px] h-[520px] rounded-full bg-[#1D4ED8]/20 blur-[130px]"></div>
+      <div aria-hidden="true" class="pointer-events-none absolute bottom-0 left-10 w-[420px] h-[420px] rounded-full bg-[#0E1A38]/60 blur-[120px]"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          
+          <!-- Coluna Esquerda (7 colunas) -->
+          <div class="lg:col-span-7 space-y-6 animate-entry">
+            <!-- Badge discreto em azul escuro -->
+            <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#0A1226] border border-blue-500/30 shadow-[0_0_24px_rgba(29,78,216,0.2)]">
+              <span class="w-2 h-2 rounded-full bg-[#3B82F6]"></span>
+              <span class="font-mono text-xs font-medium tracking-wide text-[#60A5FA]">
+                Engenharia de Software · UniCatólica · 2026
+              </span>
+            </div>
+
+            <!-- Título Principal -->
+            <h1 class="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight leading-[1.1] text-[#F8FAFC]">
+              Relações, Princípios e Valores
+            </h1>
+
+            <!-- Subtítulo -->
+            <p class="text-base sm:text-lg lg:text-xl text-[#CBD5E1] leading-relaxed max-w-2xl font-normal">
+              Vivências em sala, reflexões pessoais e aprendizados para além da técnica.
+            </p>
+
+            <!-- Grid limpo de metadados do aluno -->
+            <div class="pt-3 grid grid-cols-1 sm:grid-cols-2 gap-3.5 max-w-2xl">
+              <div class="rounded-2xl bg-[#070B14]/90 border border-blue-500/20 p-4">
+                <span class="block font-mono text-[11px] uppercase tracking-wider text-[#60A5FA] mb-1">Aluno</span>
+                <p class="text-sm sm:text-base font-semibold text-[#F8FAFC]">
+                  João Victtor de Sousa Cortes
+                </p>
+              </div>
+
+              <div class="rounded-2xl bg-[#070B14]/90 border border-blue-500/20 p-4">
+                <span class="block font-mono text-[11px] uppercase tracking-wider text-[#60A5FA] mb-1">Matrícula</span>
+                <p class="text-sm sm:text-base font-semibold text-[#CBD5E1]">FC20261674</p>
+              </div>
+
+              <div class="rounded-2xl bg-[#070B14]/90 border border-blue-500/20 p-4">
+                <span class="block font-mono text-[11px] uppercase tracking-wider text-[#60A5FA] mb-1">Professor</span>
+                <p class="text-sm sm:text-base font-semibold text-[#F8FAFC]">
+                  Antônio Cesar
+                </p>
+              </div>
+
+              <div class="rounded-2xl bg-[#070B14]/90 border border-blue-500/20 p-4">
+                <span class="block font-mono text-[11px] uppercase tracking-wider text-[#60A5FA] mb-1">Curso</span>
+                <p class="text-sm sm:text-base font-semibold text-[#F8FAFC]">
+                  Engenharia de Software — UniCatólica
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna Direita (5 colunas): Card retangular moderno com cantos arredondados (20px) e gradiente azul escuro -->
+          <div class="lg:col-span-5">
+            <div class="hero-portrait-frame max-w-md mx-auto lg:ml-auto">
+              <div class="hero-portrait-inner p-4 sm:p-5">
+                
+                <!-- Área da Foto de Perfil -->
+                <div class="relative aspect-[4/4] w-full rounded-[16px] overflow-hidden bg-[#070B14] border border-blue-500/20 group" data-photo-slot="hero-profile">
+                  <!-- FOTO DE PERFIL: troque o caminho do src para substituir esta foto. -->
+                  <img src="public/img/foto.de.perfil.jpeg"João Victtor de Sousa Cortes" class="slot-img w-full h-full object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-[1.03]" data-caption="João Victtor de Sousa Cortes · Pessoas, escolhas e desenvolvimento">
+
+                  <!-- Placeholder Geométrico Sofisticado em Azul Escuro -->
+                  <div class="slot-placeholder w-full h-full flex flex-col items-center justify-center p-6 text-center bg-gradient-to-b from-[#0E1A38]/80 to-[#04060B] hidden">
+                    <div class="w-20 h-20 rounded-2xl bg-[#0A1226] border border-blue-400/30 flex items-center justify-center mb-4 shadow-[0_0_30px_rgba(37,99,235,0.25)]">
+                      <svg class="w-10 h-10 text-[#60A5FA]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                      </svg>
+                    </div>
+                    <p class="text-sm font-semibold text-[#F8FAFC]">Foto do Acadêmico</p>
+                    <p class="text-xs text-[#94A3B8] mt-1 max-w-[220px]">Adicione sua foto de perfil utilizando o botão abaixo</p>
+                  </div>
+</div>
+
+                <!-- Legenda discreta abaixo -->
+                <div class="mt-4 flex items-center justify-between gap-3 px-1">
+                  <p class="text-xs sm:text-sm text-[#CBD5E1] font-medium">
+                    João Victtor de Sousa Cortes · Pessoas, escolhas e desenvolvimento
+                  </p>
+                  <span class="shrink-0 w-2 h-2 rounded-full bg-[#3B82F6] shadow-[0_0_10px_#3B82F6]"></span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SEÇÃO 01 — PILARES E BÚSSOLA ÉTICA (BENTO GRID 4 CARDS)
+         ====================================================================== -->
+    <section id="pilares" class="relative py-20 sm:py-24 bg-[#070B14] border-b border-blue-500/20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho da Seção -->
+        <div class="max-w-3xl mb-12 sm:mb-14">
+          <div class="inline-flex items-center gap-2 font-mono text-xs font-semibold uppercase tracking-widest text-[#60A5FA] mb-3">
+            <span class="w-6 h-[1px] bg-[#3B82F6]"></span>
+            <span>Seção 01 · Pilares e Bússola Ética</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#F8FAFC] leading-tight">
+            Construindo uma bússola ética para a vida acadêmica e profissional
+          </h2>
+          <p class="mt-4 text-sm sm:text-base text-[#94A3B8] leading-relaxed">
+            A disciplina conectou autoconhecimento, convivência, responsabilidade social e expressão criativa ao longo de cinco encontros presenciais, tendo a Felicidade como temática central.
+          </p>
+        </div>
+
+        <!-- Bento Grid Assimétrico (12 Colunas -> 7+5 e 5+7) -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-5 lg:gap-6">
+          
+          <!-- Card 1 (7 colunas em desktop) -->
+          <article class="editorial-card md:col-span-7 rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative overflow-hidden">
+            <div aria-hidden="true" class="pointer-events-none absolute -right-10 -top-10 w-40 h-40 rounded-full bg-blue-600/10 blur-2xl"></div>
+            <div class="flex items-start justify-between gap-4 mb-6">
+              <div class="w-12 h-12 rounded-2xl bg-[#0E1A38] border border-blue-400/30 flex items-center justify-center text-[#60A5FA] shrink-0">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" stroke-linejoin="round"></path>
+                  <path d="M2 17l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <span class="font-mono text-xs text-[#60A5FA]/80 bg-[#0A1226] border border-blue-500/20 px-2.5 py-1 rounded-lg">PILAR 01</span>
+            </div>
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold text-[#F8FAFC] mb-2">
+                Habilidades e competências
+              </h3>
+              <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                Reconhecer meus recursos naturais e aprimorá-los na prática.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2 (5 colunas em desktop) -->
+          <article class="editorial-card md:col-span-5 rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative overflow-hidden">
+            <div class="flex items-start justify-between gap-4 mb-6">
+              <div class="w-12 h-12 rounded-2xl bg-[#0E1A38] border border-blue-400/30 flex items-center justify-center text-[#60A5FA] shrink-0">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linejoin="round"></path>
+                  <path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <span class="font-mono text-xs text-[#60A5FA]/80 bg-[#0A1226] border border-blue-500/20 px-2.5 py-1 rounded-lg">PILAR 02</span>
+            </div>
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold text-[#F8FAFC] mb-2">
+                Ética e moral
+              </h3>
+              <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                Analisar condutas, valores e os filtros do querer, poder e dever.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 3 (5 colunas em desktop) -->
+          <article class="editorial-card md:col-span-5 rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative overflow-hidden">
+            <div class="flex items-start justify-between gap-4 mb-6">
+              <div class="w-12 h-12 rounded-2xl bg-[#0E1A38] border border-blue-400/30 flex items-center justify-center text-[#60A5FA] shrink-0">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <circle cx="18" cy="5" r="3"></circle>
+                  <circle cx="6" cy="12" r="3"></circle>
+                  <circle cx="18" cy="19" r="3"></circle>
+                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+              </div>
+              <span class="font-mono text-xs text-[#60A5FA]/80 bg-[#0A1226] border border-blue-500/20 px-2.5 py-1 rounded-lg">PILAR 03</span>
+            </div>
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold text-[#F8FAFC] mb-2">
+                Decisões e parcerias
+              </h3>
+              <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                Compreender como o networking e as relações influenciam o futuro.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 4 (7 colunas em desktop) -->
+          <article class="editorial-card md:col-span-7 rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative overflow-hidden">
+            <div aria-hidden="true" class="pointer-events-none absolute -right-10 -bottom-10 w-44 h-44 rounded-full bg-blue-500/10 blur-2xl"></div>
+            <div class="flex items-start justify-between gap-4 mb-6">
+              <div class="w-12 h-12 rounded-2xl bg-[#0E1A38] border border-blue-400/30 flex items-center justify-center text-[#60A5FA] shrink-0">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" stroke-linejoin="round"></polygon>
+                </svg>
+              </div>
+              <span class="font-mono text-xs text-[#60A5FA]/80 bg-[#0A1226] border border-blue-500/20 px-2.5 py-1 rounded-lg">PILAR 04</span>
+            </div>
+            <div>
+              <h3 class="text-lg sm:text-xl font-bold text-[#F8FAFC] mb-2">
+                Felicidade e ação
+              </h3>
+              <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                Refletir sobre alegria como potência do agir e vínculos genuínos.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SEÇÃO 02 — LINHA DO TEMPO DOS 5 ENCONTROS (TIMELINE VERTICAL INTERATIVA)
+         ====================================================================== -->
+    <section id="jornada" class="relative py-20 sm:py-24 bg-[#04060B] border-b border-blue-500/20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho da Seção -->
+        <div class="max-w-3xl mb-14 sm:mb-16">
+          <div class="inline-flex items-center gap-2 font-mono text-xs font-semibold uppercase tracking-widest text-[#60A5FA] mb-3">
+            <span class="w-6 h-[1px] bg-[#3B82F6]"></span>
+            <span>Seção 02 · Linha do Tempo dos 5 Encontros</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#F8FAFC]">
+            Trajetória presencial e registros de aprendizagem
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-[#94A3B8] leading-relaxed">
+            Cada encontro presencial expandiu minha percepção sobre identidade, competências técnicas e humanas, escolhas éticas e colaboração em equipe.
+          </p>
+        </div>
+
+        <!-- Container da Timeline Vertical -->
+        <div class="relative pl-7 sm:pl-12 space-y-10 sm:space-y-12">
+          <!-- Linha vertical contínua brilhante na lateral esquerda -->
+          <div aria-hidden="true" class="timeline-rail absolute left-[11px] sm:left-[19px] top-3 bottom-3 w-[2px] rounded-full"></div>
+
+          <!-- ==================== ENCONTRO 01 ==================== -->
+          <article class="relative">
+            <!-- Marcador da Timeline -->
+            <div aria-hidden="true" class="timeline-node absolute -left-7 sm:-left-12 top-6 w-6 h-6 sm:w-10 sm:h-10 rounded-full flex items-center justify-center font-mono text-[10px] sm:text-xs font-bold text-white">
+              01
+            </div>
+
+            <div class="editorial-card rounded-2xl p-6 sm:p-8">
+              <!-- Cabeçalho do Card -->
+              <div class="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-blue-500/20">
+                <div>
+                  <span class="inline-block font-mono text-xs font-medium text-[#60A5FA] bg-[#0E1A38] border border-blue-500/25 px-3 py-1 rounded-full mb-2">
+                    12 de Agosto · 2026
+                  </span>
+                  <h3 class="text-xl sm:text-2xl font-bold text-[#F8FAFC]">
+                    Integração, identidade e vínculos
+                  </h3>
+                </div>
+                <span class="font-mono text-xs uppercase tracking-wider text-[#94A3B8]">ENCONTRO 01</span>
+              </div>
+
+              <!-- Corpo do Card: Textos + Mídia -->
+              <div class="mt-6 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+                <!-- Coluna de Textos (7 colunas) -->
+                <div class="lg:col-span-7 space-y-5">
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      O que aconteceu em sala
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Dinâmica inicial de apresentação entre os acadêmicos, alinhamento da proposta da disciplina com o Prof. Antônio Cesar e reflexão sobre identidade digital e o sentido da felicidade.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      Minhas percepções e notas
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Refleti sobre a ideia de que 'sua rede social é o espelho de você', mostrando como nossa postura online comunica nossos princípios antes mesmo de qualquer contato profissional. Também discutimos 'o que é felicidade para você?' e escolhemos um objeto capaz de representar esse conceito na nossa trajetória.
+                    </p>
+                  </div>
+
+                  <!-- Caixa de Destaque: Síntese do Encontro -->
+                  <div class="synthesis-box rounded-xl p-4 sm:p-5">
+                    <span class="block font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] mb-1.5">
+                      Síntese do Encontro
+                    </span>
+                    <p class="text-sm sm:text-[15px] font-medium text-[#F8FAFC] leading-relaxed">
+                      “Nossa presença no mundo — inclusive nas redes sociais — é um reflexo direto da nossa identidade, dos nossos valores e daquilo que escolhemos cultivar como felicidade.”
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Coluna de Mídia: 1 Foto (5 colunas) -->
+                <div class="lg:col-span-5">
+                  <div class="rounded-xl bg-[#070B14] border border-blue-500/20 p-3">
+                    <div class="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-[#0A1226] group" data-photo-slot="enc01-foto1">
+                      <!-- FOTO PARA ADICIONAR PELO CÓDIGO (enc01-foto1), adicione src="imagens/nome-da-foto.jpg" à tag abaixo. -->
+<img src="public/img/encontro - 05.07.jpeg" class="slot-img w-full h-full object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-[1.03]" data-caption="Turma de Engenharia de Software · UniCatólica">
+                      <div class="slot-placeholder w-full h-full flex flex-col items-center justify-center p-4 text-center">
+                        <svg class="w-8 h-8 text-[#3B82F6]/70 mb-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                          <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span class="text-xs font-medium text-[#94A3B8]">Espaço para registro fotográfico</span>
+                      </div>
+</div>
+                    <p class="mt-2.5 text-xs text-[#94A3B8] font-medium px-1">
+                      TSoftware · UniCatólica
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==================== ENCONTRO 02 ==================== -->
+          <article class="relative">
+            <div aria-hidden="true" class="timeline-node absolute -left-7 sm:-left-12 top-6 w-6 h-6 sm:w-10 sm:h-10 rounded-full flex items-center justify-center font-mono text-[10px] sm:text-xs font-bold text-white">
+              02
+            </div>
+
+            <div class="editorial-card rounded-2xl p-6 sm:p-8">
+              <div class="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-blue-500/20">
+                <div>
+                  <span class="inline-block font-mono text-xs font-medium text-[#60A5FA] bg-[#0E1A38] border border-blue-500/25 px-3 py-1 rounded-full mb-2">
+                    25 de Agosto · 2026
+                  </span>
+                  <h3 class="text-xl sm:text-2xl font-bold text-[#F8FAFC]">
+                    Competências, escolhas e felicidade
+                  </h3>
+                </div>
+                <span class="font-mono text-xs uppercase tracking-wider text-[#94A3B8]">ENCONTRO 02</span>
+              </div>
+
+              <div class="mt-6 space-y-6">
+                <!-- Textos -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      O que aconteceu em sala
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Discussão sobre a diferença entre habilidade e competência, análise da importância do networking profissional a partir da parceria de Carl Benz e August Ritter, e aprofundamento filosófico sobre felicidade e alegria.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      Minhas percepções e notas
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Aprimorar uma habilidade é o que realmente torna você competente. No meu mapeamento pessoal, destaquei minha facilidade com matemática, lógica e lógica de programação — bases que lapido constantemente na Engenharia de Software. Também ficou marcada a visão de que felicidade é um instante que vale por si só, enquanto alegria é o aumento da potência do agir, somada à importância de criar networking para o mercado de trabalho.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Síntese do Encontro -->
+                <div class="synthesis-box rounded-xl p-4 sm:p-5">
+                  <span class="block font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] mb-1.5">
+                    Síntese do Encontro
+                  </span>
+                  <p class="text-sm sm:text-[15px] font-medium text-[#F8FAFC] leading-relaxed">
+                    “Aprimorar nossas habilidades transforma potencial em competência, e construir boas parcerias multiplica nossa potência de agir.”
+                  </p>
+                </div>
+
+                <!-- Mídia: 2 espaços de foto lado a lado -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <!-- Registro 01 -->
+                  <div class="rounded-xl bg-[#070B14] border border-blue-500/20 p-3">
+                    <div class="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-[#0A1226] group" data-photo-slot="enc02-foto1">
+                      <!-- FOTO PARA ADICIONAR PELO CÓDIGO (enc02-foto1), adicione src="imagens/nome-da-foto.jpg" à tag abaixo. -->
+<img src="public/img/25.08 1.jpeg" class="slot-img w-full h-full object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-[1.03]" data-caption="Registro 01 · Bússola e dinâmica em sala">
+                      <div class="slot-placeholder w-full h-full flex flex-col items-center justify-center p-4 text-center">
+                        <svg class="w-8 h-8 text-[#3B82F6]/70 mb-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                          <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span class="text-xs font-medium text-[#94A3B8]">Espaço para Registro 01</span>
+                      </div>
+</div>
+                    <p class="mt-2.5 text-xs text-[#94A3B8] font-medium px-1">
+                      Registro 01 · Bússola e dinâmica em sala
+                    </p>
+                  </div>
+
+                  <!-- Registro 02 -->
+                  <div class="rounded-xl bg-[#070B14] border border-blue-500/20 p-3">
+                    <div class="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-[#0A1226] group" data-photo-slot="enc02-foto2">
+                      <!-- FOTO PARA ADICIONAR PELO CÓDIGO (enc02-foto2), adicione src="imagens/nome-da-foto.jpg" à tag abaixo. -->
+<img src="public/img/25.08 2.jpeg" class="slot-img w-full h-full object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-[1.03]" data-caption="Registro 02 · Carl Benz &amp; August Ritter — Networking">
+                      <div class="slot-placeholder w-full h-full flex flex-col items-center justify-center p-4 text-center">
+                        <svg class="w-8 h-8 text-[#3B82F6]/70 mb-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                          <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span class="text-xs font-medium text-[#94A3B8]">Espaço para Registro 02</span>
+                      </div>
+</div>
+                    <p class="mt-2.5 text-xs text-[#94A3B8] font-medium px-1">
+                      Registro 02 · Carl Benz &amp; August Ritter — Networking
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==================== ENCONTRO 03 ==================== -->
+          <article class="relative">
+            <div aria-hidden="true" class="timeline-node absolute -left-7 sm:-left-12 top-6 w-6 h-6 sm:w-10 sm:h-10 rounded-full flex items-center justify-center font-mono text-[10px] sm:text-xs font-bold text-white">
+              03
+            </div>
+
+            <div class="editorial-card rounded-2xl p-6 sm:p-8">
+              <div class="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-blue-500/20">
+                <div>
+                  <span class="inline-block font-mono text-xs font-medium text-[#60A5FA] bg-[#0E1A38] border border-blue-500/25 px-3 py-1 rounded-full mb-2">
+                    09 de Setembro · 2026
+                  </span>
+                  <h3 class="text-xl sm:text-2xl font-bold text-[#F8FAFC]">
+                    Ética, moral e consciência humana
+                  </h3>
+                </div>
+                <span class="font-mono text-xs uppercase tracking-wider text-[#94A3B8]">ENCONTRO 03</span>
+              </div>
+
+              <div class="mt-6 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+                <!-- Coluna de Textos (7 colunas) -->
+                <div class="lg:col-span-7 space-y-5">
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      O que aconteceu em sala
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Exposição dialogada e estudo de casos sobre princípios éticos, normas morais e os padrões fundamentais que orientam a tomada de decisão humana e profissional.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      Minhas percepções e notas
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      O ponto central da aula foi aplicar os padrões da ética: Quero, Posso e Devo. Na área de tecnologia, nem tudo o que queremos ou tecnicamente podemos desenvolver é algo que devemos fazer. Avaliar cada escolha por essa tríade traz segurança e responsabilidade para agir com integridade.
+                    </p>
+
+                    <!-- 3 Badges Visuais Elegantes: QUERO, POSSO, DEVO -->
+                    <div class="mt-4 grid grid-cols-3 gap-2.5 sm:gap-3">
+                      <div class="rounded-xl bg-[#070B14] border border-blue-500/30 px-3 py-2.5 text-center shadow-[0_0_20px_rgba(29,78,216,0.15)]">
+                        <span class="block font-mono text-xs sm:text-sm font-bold tracking-widest text-[#60A5FA]">QUERO</span>
+                        <span class="block text-[11px] text-[#94A3B8] mt-0.5">Desejo &amp; Vontade</span>
+                      </div>
+                      <div class="rounded-xl bg-[#070B14] border border-blue-500/30 px-3 py-2.5 text-center shadow-[0_0_20px_rgba(29,78,216,0.15)]">
+                        <span class="block font-mono text-xs sm:text-sm font-bold tracking-widest text-[#3B82F6]">POSSO</span>
+                        <span class="block text-[11px] text-[#94A3B8] mt-0.5">Capacidade Técnica</span>
+                      </div>
+                      <div class="rounded-xl bg-gradient-to-b from-[#1D4ED8]/25 to-[#070B14] border border-blue-400/50 px-3 py-2.5 text-center shadow-[0_0_24px_rgba(37,99,235,0.28)]">
+                        <span class="block font-mono text-xs sm:text-sm font-bold tracking-widest text-[#F8FAFC]">DEVO</span>
+                        <span class="block text-[11px] text-[#CBD5E1] mt-0.5">Filtro Ético</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Síntese do Encontro -->
+                  <div class="synthesis-box rounded-xl p-4 sm:p-5">
+                    <span class="block font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] mb-1.5">
+                      Síntese do Encontro
+                    </span>
+                    <p class="text-sm sm:text-[15px] font-medium text-[#F8FAFC] leading-relaxed">
+                      “A verdadeira consciência ética nasce no equilíbrio entre o que eu quero, o que eu posso e o que eu realmente devo fazer.”
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Coluna de Mídia: 1 Espaço Opcional para Foto (5 colunas) -->
+                <div class="lg:col-span-5">
+                  <div class="rounded-xl bg-[#070B14] border border-blue-500/20 p-3">
+                    <div class="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-[#0A1226] group" data-photo-slot="enc03-foto1">
+                      <!-- FOTO PARA ADICIONAR PELO CÓDIGO (enc03-foto1), adicione src="imagens/nome-da-foto.jpg" à tag abaixo. -->
+<img src="public/img/encontro-03.png" class="slot-img w-full h-full object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-[1.03]" data-caption="Análise de dilemas cotidianos e responsabilidade social">
+                      <div class="slot-placeholder w-full h-full flex flex-col items-center justify-center p-4 text-center">
+                        <svg class="w-8 h-8 text-[#3B82F6]/70 mb-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                          <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span class="text-xs font-medium text-[#94A3B8]">Espaço opcional para registro</span>
+                      </div>
+</div>
+                    <p class="mt-2.5 text-xs text-[#94A3B8] font-medium px-1">
+                      Análise de dilemas cotidianos e responsabilidade social
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==================== ENCONTRO 04 ==================== -->
+          <article class="relative">
+            <div aria-hidden="true" class="timeline-node absolute -left-7 sm:-left-12 top-6 w-6 h-6 sm:w-10 sm:h-10 rounded-full flex items-center justify-center font-mono text-[10px] sm:text-xs font-bold text-white">
+              04
+            </div>
+
+            <div class="editorial-card rounded-2xl p-6 sm:p-8">
+              <div class="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-blue-500/20">
+                <div>
+                  <span class="inline-block font-mono text-xs font-medium text-[#60A5FA] bg-[#0E1A38] border border-blue-500/25 px-3 py-1 rounded-full mb-2">
+                    21 de Outubro · 2026
+                  </span>
+                  <h3 class="text-xl sm:text-2xl font-bold text-[#F8FAFC]">
+                    Competências em equipe
+                  </h3>
+                </div>
+                <span class="font-mono text-xs uppercase tracking-wider text-[#94A3B8]">ENCONTRO 04</span>
+              </div>
+
+              <div class="mt-6 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+                <!-- Coluna de Textos (7 colunas) -->
+                <div class="lg:col-span-7 space-y-5">
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      O que aconteceu em sala
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Aula dinâmica sobre competências e habilidades conduzida no formato do programa The Voice Brasil, desafiando os acadêmicos a exercitarem percepção, escuta e organização em grupos para a etapa criativa final.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      Minhas percepções e notas
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      A atividade inspirada no The Voice Brasil tirou a turma da zona de conforto e mostrou na prática como o trabalho em equipe exige escuta ativa, leitura de perfis e alinhamento rápido. Unir habilidades complementares do grupo foi essencial para estruturar nossa apresentação final.
+                    </p>
+                  </div>
+
+                  <!-- Síntese do Encontro -->
+                  <div class="synthesis-box rounded-xl p-4 sm:p-5">
+                    <span class="block font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] mb-1.5">
+                      Síntese do Encontro
+                    </span>
+                    <p class="text-sm sm:text-[15px] font-medium text-[#F8FAFC] leading-relaxed">
+                      “Cooperar é reconhecer o talento de cada integrante e somar habilidades complementares em torno de um objetivo comum.”
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Coluna de Mídia: 1 Foto (5 colunas) -->
+                <div class="lg:col-span-5">
+                  <div class="rounded-xl bg-[#070B14] border border-blue-500/20 p-3">
+                    <div class="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-[#0A1226] group" data-photo-slot="enc04-foto1">
+                      <!-- FOTO PARA ADICIONAR PELO CÓDIGO (enc04-foto1), adicione src="imagens/nome-da-foto.jpg" à tag abaixo. -->
+<img src="public/img/21.10.jpeg" class="slot-img w-full h-full object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-[1.03]" data-caption="Dinâmica de competências e habilidades · The Voice Brasil">
+                      <div class="slot-placeholder w-full h-full flex flex-col items-center justify-center p-4 text-center">
+                        <svg class="w-8 h-8 text-[#3B82F6]/70 mb-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                          <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span class="text-xs font-medium text-[#94A3B8]">Espaço para registro fotográfico</span>
+                      </div>
+</div>
+                    <p class="mt-2.5 text-xs text-[#94A3B8] font-medium px-1">
+                      Dinâmica de competências e habilidades · The Voice Brasil
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==================== ENCONTRO 05 ==================== -->
+          <article class="relative">
+            <div aria-hidden="true" class="timeline-node absolute -left-7 sm:-left-12 top-6 w-6 h-6 sm:w-10 sm:h-10 rounded-full flex items-center justify-center font-mono text-[10px] sm:text-xs font-bold text-white">
+              05
+            </div>
+
+            <div class="editorial-card rounded-2xl p-6 sm:p-8">
+              <div class="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-blue-500/20">
+                <div>
+                  <span class="inline-block font-mono text-xs font-medium text-[#60A5FA] bg-[#0E1A38] border border-blue-500/25 px-3 py-1 rounded-full mb-2">
+                    04 de Novembro · 2026
+                  </span>
+                  <h3 class="text-xl sm:text-2xl font-bold text-[#F8FAFC]">
+                    Paródia: criatividade e expressão
+                  </h3>
+                </div>
+                <span class="font-mono text-xs uppercase tracking-wider text-[#94A3B8]">ENCONTRO 05</span>
+              </div>
+
+              <div class="mt-6 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+                <!-- Coluna de Textos (7 colunas) -->
+                <div class="lg:col-span-7 space-y-5">
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      O que aconteceu em sala
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Culminância criativa da disciplina com a apresentação das paródias produzidas por 4 grupos da turma, integrando leitura, escrita, argumentação e expressão artística diante dos colegas.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 class="font-mono text-xs font-semibold uppercase tracking-wider text-[#60A5FA] mb-2">
+                      Minhas percepções e notas
+                    </h4>
+                    <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+                      Nosso grupo criou uma paródia baseada na música 'Ela é amiga da minha mulher', adaptando a letra para traduzir com criatividade e humor os aprendizados sobre ética, escolhas e convivência. Apresentar diante da turma consolidou o trabalho em equipe e mostrou como a expressão criativa fixa o aprendizado.
+                    </p>
+                  </div>
+
+                  <!-- Síntese do Encontro -->
+                  <div class="synthesis-box rounded-xl p-4 sm:p-5">
+                    <span class="block font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] mb-1.5">
+                      Síntese do Encontro
+                    </span>
+                    <p class="text-sm sm:text-[15px] font-medium text-[#F8FAFC] leading-relaxed">
+                      “Transformar conceitos teóricos em música e trabalho coletivo mostra que aprender também é criar, expressar e compartilhar.”
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Coluna de Mídia: APENAS 1 Foto (sem player de vídeo) (5 colunas) -->
+                <div class="lg:col-span-5">
+                  <div class="rounded-xl bg-[#070B14] border border-blue-500/20 p-3">
+                    <div class="relative aspect-[16/10] w-full rounded-lg overflow-hidden bg-[#0A1226] group" data-photo-slot="enc05-foto1">
+                      <!-- FOTO PARA ADICIONAR PELO CÓDIGO (enc05-foto1), adicione src="imagens/nome-da-foto.jpg" à tag abaixo. -->
+<img src="public/img/04.11 2.jpeg" class="slot-img w-full h-full object-cover cursor-zoom-in transition-transform duration-500 group-hover:scale-[1.03]" data-caption="Apresentação das paródias em sala · 4 grupos (Base: Ela é amiga da minha mulher)">
+                      <div class="slot-placeholder w-full h-full flex flex-col items-center justify-center p-4 text-center">
+                        <svg class="w-8 h-8 text-[#3B82F6]/70 mb-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                          <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span class="text-xs font-medium text-[#94A3B8]">Espaço para registro fotográfico</span>
+                      </div>
+</div>
+                    <p class="mt-2.5 text-xs text-[#94A3B8] font-medium px-1">
+                      Apresentação das paródias em sala · 4 grupos (Base: Ela é amiga da minha mulher)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SEÇÃO 03 — PRINCIPAIS APRENDIZADOS DA JORNADA (GRID 2X2)
+         ====================================================================== -->
+    <section id="aprendizados" class="relative py-20 sm:py-24 bg-[#070B14] border-b border-blue-500/20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-12 sm:mb-14">
+          <div class="inline-flex items-center gap-2 font-mono text-xs font-semibold uppercase tracking-widest text-[#60A5FA] mb-3">
+            <span class="w-6 h-[1px] bg-[#3B82F6]"></span>
+            <span>Seção 03 · Principais Aprendizados da Jornada</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#F8FAFC]">
+            Síntese de valores aplicados à Engenharia de Software
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-[#94A3B8] leading-relaxed">
+            Quatro pilares consolidados ao longo do semestre que orientam minha postura acadêmica, minhas decisões técnicas e minhas relações interpessoais.
+          </p>
+        </div>
+
+        <!-- Grid 2x2 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <!-- Aprendizado 01 -->
+          <article class="editorial-card rounded-2xl p-6 sm:p-8 relative overflow-hidden">
+            <div class="flex items-center justify-between mb-5">
+              <span class="font-mono text-xs font-bold tracking-widest text-[#60A5FA] bg-[#0A1226] border border-blue-500/30 px-3 py-1.5 rounded-lg">
+                APRENDIZADO 01
+              </span>
+              <span class="font-mono text-2xl font-bold text-blue-500/25">01</span>
+            </div>
+            <h3 class="text-xl font-bold text-[#F8FAFC] mb-3">
+              01. Vínculos e Felicidade
+            </h3>
+            <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+              Entender a felicidade como um instante que vale por si só e a alegria como potência do agir fortalece minha base pessoal e minhas relações.
+            </p>
+          </article>
+
+          <!-- Aprendizado 02 -->
+          <article class="editorial-card rounded-2xl p-6 sm:p-8 relative overflow-hidden">
+            <div class="flex items-center justify-between mb-5">
+              <span class="font-mono text-xs font-bold tracking-widest text-[#60A5FA] bg-[#0A1226] border border-blue-500/30 px-3 py-1.5 rounded-lg">
+                APRENDIZADO 02
+              </span>
+              <span class="font-mono text-2xl font-bold text-blue-500/25">02</span>
+            </div>
+            <h3 class="text-xl font-bold text-[#F8FAFC] mb-3">
+              02. Escolhas e Networking
+            </h3>
+            <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+              Aprimorar habilidades técnicas (matemática, lógica e programação) e construir parcerias estratégicas define o alcance da minha trajetória.
+            </p>
+          </article>
+
+          <!-- Aprendizado 03 -->
+          <article class="editorial-card rounded-2xl p-6 sm:p-8 relative overflow-hidden border-blue-400/35">
+            <div class="flex items-center justify-between mb-5">
+              <span class="font-mono text-xs font-bold tracking-widest text-white bg-gradient-to-r from-[#1D4ED8] to-[#2563EB] px-3 py-1.5 rounded-lg">
+                APRENDIZADO 03 · EIXO CENTRAL
+              </span>
+              <span class="font-mono text-2xl font-bold text-blue-400/35">03</span>
+            </div>
+            <h3 class="text-xl font-bold text-[#F8FAFC] mb-3">
+              03. Ética (Eixo Central)
+            </h3>
+            <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+              Aplicar o filtro do Quero, Posso e Devo garante integridade e responsabilidade em cada decisão tomada na Engenharia de Software.
+            </p>
+          </article>
+
+          <!-- Aprendizado 04 -->
+          <article class="editorial-card rounded-2xl p-6 sm:p-8 relative overflow-hidden">
+            <div class="flex items-center justify-between mb-5">
+              <span class="font-mono text-xs font-bold tracking-widest text-[#60A5FA] bg-[#0A1226] border border-blue-500/30 px-3 py-1.5 rounded-lg">
+                APRENDIZADO 04
+              </span>
+              <span class="font-mono text-2xl font-bold text-blue-500/25">04</span>
+            </div>
+            <h3 class="text-xl font-bold text-[#F8FAFC] mb-3">
+              04. Colaboração
+            </h3>
+            <p class="text-sm sm:text-base text-[#CBD5E1] leading-relaxed">
+              Somar talentos distintos e praticar a escuta ativa transforma desafios em grupo em entregas criativas e consistentes.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SEÇÃO 04 — APÊNDICE CRIATIVO: PARÓDIA & EIXOS FORMATIVOS
+         ====================================================================== -->
+    <section id="parodia" class="relative py-20 sm:py-24 bg-[#04060B]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho da Seção -->
+        <div class="max-w-3xl mb-10">
+          <div class="inline-flex items-center gap-2 font-mono text-xs font-semibold uppercase tracking-widest text-[#60A5FA] mb-3">
+            <span class="w-6 h-[1px] bg-[#3B82F6]"></span>
+            <span>Seção 04 · Apêndice Criativo</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#F8FAFC]">
+            Paródia &amp; Eixos Formativos
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-[#60A5FA] font-medium leading-relaxed">
+            Base musical do grupo: "Ela é amiga da minha mulher" • Clique em Editar Textos se desejar ajustar os versos.
+          </p>
+        </div>
+
+        <!-- Filtro Interativo por Eixo -->
+        <div class="flex flex-wrap items-center gap-2 mb-8" role="tablist" aria-label="Filtrar estrofes por eixo">
+          <button type="button" data-filter="all" class="parody-filter-btn active px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#2563EB] text-white border border-blue-400/40 shadow-[0_0_16px_rgba(37,99,235,0.35)] transition-all cursor-pointer">
+            Todos
+          </button>
+          <button type="button" data-filter="vida-academica" class="parody-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#0A1226] hover:bg-[#0E1A38] text-[#CBD5E1] border border-blue-500/25 transition-all cursor-pointer">
+            Vida Acadêmica
+          </button>
+          <button type="button" data-filter="refraco" class="parody-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#0A1226] hover:bg-[#0E1A38] text-[#CBD5E1] border border-blue-500/25 transition-all cursor-pointer">
+            Refrão
+          </button>
+          <button type="button" data-filter="percepcao" class="parody-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#0A1226] hover:bg-[#0E1A38] text-[#CBD5E1] border border-blue-500/25 transition-all cursor-pointer">
+            Percepção e Argumentação
+          </button>
+          <button type="button" data-filter="autoria" class="parody-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#0A1226] hover:bg-[#0E1A38] text-[#CBD5E1] border border-blue-500/25 transition-all cursor-pointer">
+            Autoria e Inovação
+          </button>
+          <button type="button" data-filter="oralidade" class="parody-filter-btn px-3.5 py-2 rounded-xl text-xs font-semibold bg-[#0A1226] hover:bg-[#0E1A38] text-[#CBD5E1] border border-blue-500/25 transition-all cursor-pointer">
+            Leitura, Escrita e Oralidade
+          </button>
+        </div>
+
+        <!-- 5 Cards com as Estrofes Editáveis -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-14" id="stanzasGrid">
+          
+          <!-- Estrofe 01: Vida Acadêmica -->
+          <article class="editorial-card stanza-card rounded-2xl p-6 flex flex-col justify-between" data-category="vida-academica">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] bg-[#0A1226] border border-blue-500/25 px-2.5 py-1 rounded-lg">
+                  Vida Acadêmica
+                </span>
+                <span class="font-mono text-xs text-[#94A3B8]">Estrofe 01</span>
+              </div>
+              <div class="text-sm sm:text-[15px] text-[#CBD5E1] leading-relaxed space-y-1.5">
+                <p>Entrei na sala de aula querendo só programar,</p>
+                <p>Pensando em código limpo, sem muito tempo a gastar.</p>
+                <p>Mas o professor mostrou que antes de desenvolver,</p>
+                <p>É preciso ter valores pra saber como escolher.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estrofe 02: Refrão -->
+          <article class="editorial-card stanza-card rounded-2xl p-6 flex flex-col justify-between border-blue-400/35" data-category="refraco">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-white bg-[#1D4ED8] px-2.5 py-1 rounded-lg">
+                  Refrão
+                </span>
+                <span class="font-mono text-xs text-[#94A3B8]">Estrofe 02</span>
+              </div>
+              <div class="text-sm sm:text-[15px] font-medium text-[#F8FAFC] leading-relaxed space-y-1.5">
+                <p>Eu quero, eu posso, mas será que eu devo?</p>
+                <p>É com consciência ética que o futuro eu escrevo.</p>
+                <p>Felicidade é o instante que faz tudo valer,</p>
+                <p>E a alegria aumenta a potência de agir e vencer.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estrofe 03: Percepção e Argumentação -->
+          <article class="editorial-card stanza-card rounded-2xl p-6 flex flex-col justify-between" data-category="percepcao">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] bg-[#0A1226] border border-blue-500/25 px-2.5 py-1 rounded-lg">
+                  Percepção e Argumentação
+                </span>
+                <span class="font-mono text-xs text-[#94A3B8]">Estrofe 03</span>
+              </div>
+              <div class="text-sm sm:text-[15px] text-[#CBD5E1] leading-relaxed space-y-1.5">
+                <p>Na rede social o espelho reflete quem sou,</p>
+                <p>Cada atitude revela os princípios que alguém cultivou.</p>
+                <p>Carl Benz e August Ritter ensinaram a lição:</p>
+                <p>Parceria verdadeira multiplica a construção.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estrofe 04: Autoria e Inovação -->
+          <article class="editorial-card stanza-card rounded-2xl p-6 flex flex-col justify-between" data-category="autoria">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] bg-[#0A1226] border border-blue-500/25 px-2.5 py-1 rounded-lg">
+                  Autoria e Inovação
+                </span>
+                <span class="font-mono text-xs text-[#94A3B8]">Estrofe 04</span>
+              </div>
+              <div class="text-sm sm:text-[15px] text-[#CBD5E1] leading-relaxed space-y-1.5">
+                <p>Com lógica e matemática fui lapidando o saber,</p>
+                <p>Transformando habilidade pra competente eu ser.</p>
+                <p>No ritmo do grupo inteiro, criamos nossa versão,</p>
+                <p>Unindo arte e conceito numa só apresentação.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estrofe 05: Leitura, Escrita e Oralidade -->
+          <article class="editorial-card stanza-card rounded-2xl p-6 flex flex-col justify-between md:col-span-2 lg:col-span-2" data-category="oralidade">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-[#60A5FA] bg-[#0A1226] border border-blue-500/25 px-2.5 py-1 rounded-lg">
+                  Leitura, Escrita e Oralidade
+                </span>
+                <span class="font-mono text-xs text-[#94A3B8]">Estrofe 05</span>
+              </div>
+              <div class="text-sm sm:text-[15px] text-[#CBD5E1] leading-relaxed space-y-1.5">
+                <p>Na dinâmica em equipe cada voz teve lugar,</p>
+                <p>Com escuta ativa e ritmo soubemos nos organizar.</p>
+                <p>Levamos para a turma inteira nossa reflexão final:</p>
+                <p>Ser bom engenheiro de software é ter ética profissional!</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- 3 Cards em linha detalhando os Eixos Formativos mobilizados -->
+        <div class="pt-6 border-t border-blue-500/20">
+          <h3 class="font-mono text-xs font-semibold uppercase tracking-widest text-[#60A5FA] mb-6">
+            Eixos Formativos Mobilizados na Atividade
+          </h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <!-- Eixo 01 -->
+            <div class="rounded-2xl bg-[#070B14] border border-blue-500/20 p-6">
+              <span class="inline-block font-mono text-xs font-semibold text-[#60A5FA] mb-2">EIXO 01</span>
+              <h4 class="text-base sm:text-lg font-bold text-[#F8FAFC] mb-2">
+                Percepção e Argumentação
+              </h4>
+              <p class="text-sm text-[#94A3B8] leading-relaxed">
+                Leitura crítica das situações vivenciadas em sala e articulação coerente entre valores éticos, escolhas pessoais e atuação profissional.
+              </p>
+            </div>
+
+            <!-- Eixo 02 -->
+            <div class="rounded-2xl bg-[#070B14] border border-blue-500/20 p-6">
+              <span class="inline-block font-mono text-xs font-semibold text-[#60A5FA] mb-2">EIXO 02</span>
+              <h4 class="text-base sm:text-lg font-bold text-[#F8FAFC] mb-2">
+                Autoria e Inovação
+              </h4>
+              <p class="text-sm text-[#94A3B8] leading-relaxed">
+                Adaptação criativa da composição musical em equipe, traduzindo fundamentos filosóficos e morais em linguagem original e envolvente.
+              </p>
+            </div>
+
+            <!-- Eixo 03 -->
+            <div class="rounded-2xl bg-[#070B14] border border-blue-500/20 p-6">
+              <span class="inline-block font-mono text-xs font-semibold text-[#60A5FA] mb-2">EIXO 03</span>
+              <h4 class="text-base sm:text-lg font-bold text-[#F8FAFC] mb-2">
+                Leitura, Escrita e Oralidade
+              </h4>
+              <p class="text-sm text-[#94A3B8] leading-relaxed">
+                Estruturação coletiva dos versos, revisão rítmica e expressão comunicativa segura durante a apresentação diante dos colegas e do professor.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER MINIMALISTA
+       ======================================================================== -->
+  <footer class="bg-[#04060B] border-t border-blue-500/20 py-8 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <p class="text-xs sm:text-sm text-[#94A3B8] leading-relaxed">
+        Relações, Princípios e Valores · Portfólio Acadêmico — João Victtor de Sousa Cortes · Engenharia de Software (UniCatólica) · Prof. Antônio Cesar
+      </p>
+      <a href="#inicio" class="font-mono text-xs text-[#60A5FA] hover:text-white transition-colors shrink-0">
+        Topo ↑
+      </a>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL / LIGHTBOX PARA AMPLIAÇÃO DE FOTOS (FUNCIONA TAMBÉM NO EXPORT)
+       ======================================================================== -->
+  <div id="photoLightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-[#04060B]/92 backdrop-blur-lg p-4 sm:p-6" role="dialog" aria-modal="true" aria-label="Visualização ampliada da imagem">
+    <div class="relative max-w-4xl w-full rounded-2xl bg-[#0A1226] border border-blue-500/35 p-3 sm:p-4 shadow-[0_25px_70px_rgba(0,0,0,0.9)]">
+      <button id="btnCloseLightbox" type="button" aria-label="Fechar imagem ampliada" class="absolute -top-3 -right-3 sm:top-4 sm:right-4 z-10 w-9 h-9 rounded-full bg-[#04060B] hover:bg-[#1D4ED8] text-white border border-blue-400/40 flex items-center justify-center shadow-lg transition-colors cursor-pointer">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <line x1="18" y1="6" x2="6" y2="18" stroke-linecap="round"></line>
+          <line x1="6" y1="6" x2="18" y2="18" stroke-linecap="round"></line>
+        </svg>
+      </button>
+
+      <div class="rounded-xl overflow-hidden bg-[#04060B] flex items-center justify-center max-h-[75vh]">
+        <img id="lightboxImg" src="" alt="" class="max-h-[75vh] w-auto object-contain">
+      </div>
+
+      <p id="lightboxCaption" class="mt-3 text-xs sm:text-sm text-[#CBD5E1] text-center font-medium px-2"></p>
+    </div>
+  </div>
+<!-- ========================================================================
+       JAVASCRIPT: LIGHTBOX, FILTRO E MENU MOBILE
+       ======================================================================== -->
+  
+
+</body></html>
